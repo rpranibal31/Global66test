@@ -68,7 +68,6 @@ app.post("/lead", async (req, res) => {
   const name = req.body?.name;
   const email = req.body?.email;
 
-  // 400: validación body
   if (typeof name !== "string" || name.trim().length < 2) {
     return res.status(400).json({
       error: "INVALID_NAME",

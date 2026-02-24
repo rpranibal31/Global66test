@@ -1,23 +1,24 @@
 <template>
   <section class="bg-white">
-    <div class="max-w-7xl mx-auto my-20 px-6 py-12 lg:py-16">
-      <div class="relative overflow-visible rounded-2xl bg-graybg">
+    <div class="max-w-7xl mx-auto my-12 sm:my-16 lg:my-20 px-5 sm:px-6 py-10 sm:py-12 lg:py-16">
+      <div class="relative overflow-hidden rounded-2xl bg-graybg">
         <div
-          class="grid grid-cols-1 lg:grid-cols-2 items-center gap-10 px-8 py-12 lg:px-12 lg:py-16"
+          class="grid grid-cols-1 lg:grid-cols-2 items-center gap-10 px-6 sm:px-8 py-10 sm:py-12 lg:px-12 lg:py-16"
         >
-          <div class="max-w-xl">
+          <!-- TEXT -->
+          <div class="max-w-xl mx-auto lg:mx-0 text-center lg:text-left">
             <h1
-              class="text-4xl lg:text-5xl font-bold leading-tight text-gray-900"
+              class="text-4xl sm:text-5xl lg:text-5xl font-bold leading-tight text-gray-900"
             >
               <span class="block">Sé Global,</span>
               <span class="block text-primary">paga como local</span>
             </h1>
 
-            <p class="mt-5 text-base lg:text-lg text-gray-600 leading-relaxed">
+            <p class="mt-5 text-base sm:text-lg lg:text-lg text-gray-600 leading-relaxed">
               Tu Cuenta Global para pagar, convertir, enviar dinero y más.
             </p>
 
-            <div class="mt-7 flex flex-wrap items-center gap-3">
+            <div class="mt-7 flex flex-wrap items-center justify-center lg:justify-start gap-3">
               <a
                 href="#"
                 class="inline-flex"
@@ -52,9 +53,10 @@
             </div>
           </div>
 
-          <div class="relative min-h-[280px] lg:min-h-[360px]">
+          <!-- IMAGE -->
+          <div class="relative min-h-[240px] sm:min-h-[280px] lg:min-h-[360px]">
             <div
-              class="pointer-events-none select-none lg:absolute lg:inset-y-0 lg:right-[-56px] lg:flex lg:items-center"
+              class="pointer-events-none select-none flex justify-center lg:absolute lg:inset-y-0 lg:right-[-56px] lg:flex lg:items-center"
             >
               <img
                 src="/images/banner-img.png"
@@ -64,7 +66,7 @@
                 loading="lazy"
                 decoding="async"
                 style="height: auto"
-                class="w-[520px] max-w-none lg:w-[640px]"
+                class="w-full max-w-[340px] sm:max-w-[420px] lg:w-[640px] lg:max-w-none"
               />
             </div>
           </div>
